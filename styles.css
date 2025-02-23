@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+}
+
+#imageList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+img {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+img.selected {
+    border: 2px solid blue;
+}
